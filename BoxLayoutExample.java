@@ -12,7 +12,8 @@ Button b[];
             b[i] = new Button("Button" + (i + 1));
             add(b[i]);
         }
-        setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+       // setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+        setLayout (new BoxLayout(this, BoxLayout.X_AXIS));   
         setSize(500, 500);
         setVisible(true);
     }
